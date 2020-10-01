@@ -1,0 +1,602 @@
+The system is: Linux - 5.4.51-v7l+ - armv7l
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9febd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9febd.dir/build.make CMakeFiles/cmTC_9febd.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9febd.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9febd.dir/testCXXCompiler.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9febd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9febd.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9febd.dir/testCXXCompiler.cxx.o  -o cmTC_9febd 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_750db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_750db.dir/build.make CMakeFiles/cmTC_750db.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_750db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_750db.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_750db 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_750db' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjxa2GK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_750db /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_750db' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_750db/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_750db.dir/build.make CMakeFiles/cmTC_750db.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_750db]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_750db.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_750db ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 8.3.0-6+rpi1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_750db' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjxa2GK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_750db /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjxa2GK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_750db] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_750db.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/8]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78b5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78b5e.dir/build.make CMakeFiles/cmTC_78b5e.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78b5e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_78b5e.dir/feature_tests.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_78b5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b5e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_78b5e.dir/feature_tests.cxx.o  -o cmTC_78b5e 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a5b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a5b4.dir/build.make CMakeFiles/cmTC_4a5b4.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a5b4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_4a5b4.dir/feature_tests.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4a5b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a5b4.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4a5b4.dir/feature_tests.cxx.o  -o cmTC_4a5b4 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20cb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20cb6.dir/build.make CMakeFiles/cmTC_20cb6.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20cb6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_20cb6.dir/feature_tests.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_20cb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20cb6.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_20cb6.dir/feature_tests.cxx.o  -o cmTC_20cb6 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b75e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b75e0.dir/build.make CMakeFiles/cmTC_b75e0.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b75e0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b75e0.dir/feature_tests.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b75e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b75e0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b75e0.dir/feature_tests.cxx.o  -o cmTC_b75e0 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0949f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0949f.dir/build.make CMakeFiles/cmTC_0949f.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0949f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_0949f.dir/feature_tests.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0949f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0949f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0949f.dir/feature_tests.cxx.o  -o cmTC_0949f 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function XOpenDisplay exists in the /usr/lib/arm-linux-gnueabihf/libX11.so;/usr/lib/arm-linux-gnueabihf/libXext.so passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8265a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8265a.dir/build.make CMakeFiles/cmTC_8265a.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8265a.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_8265a.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_8265a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8265a.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_8265a.dir/CheckFunctionExists.cxx.o  -o cmTC_8265a /usr/lib/arm-linux-gnueabihf/libX11.so /usr/lib/arm-linux-gnueabihf/libXext.so 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6139a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6139a.dir/build.make CMakeFiles/cmTC_6139a.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6139a.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_6139a.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_6139a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6139a.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_6139a.dir/CheckFunctionExists.cxx.o  -o cmTC_6139a 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e25c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e25c3.dir/build.make CMakeFiles/cmTC_e25c3.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e25c3.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_e25c3.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_e25c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e25c3.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_e25c3.dir/CheckFunctionExists.cxx.o  -o cmTC_e25c3 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecfe1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecfe1.dir/build.make CMakeFiles/cmTC_ecfe1.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ecfe1.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_ecfe1.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_ecfe1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecfe1.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_ecfe1.dir/CheckFunctionExists.cxx.o  -o cmTC_ecfe1 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4118e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4118e.dir/build.make CMakeFiles/cmTC_4118e.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4118e.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_4118e.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_4118e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4118e.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_4118e.dir/CheckFunctionExists.cxx.o  -o cmTC_4118e 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2c16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2c16.dir/build.make CMakeFiles/cmTC_a2c16.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2c16.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_a2c16.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_a2c16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2c16.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_a2c16.dir/CheckFunctionExists.cxx.o  -o cmTC_a2c16 -lICE 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cca03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cca03.dir/build.make CMakeFiles/cmTC_cca03.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cca03.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra    -o CMakeFiles/cmTC_cca03.dir/CheckIncludeFile.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cca03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca03.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra     CMakeFiles/cmTC_cca03.dir/CheckIncludeFile.cxx.o  -o cmTC_cca03 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1edc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1edc3.dir/build.make CMakeFiles/cmTC_1edc3.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1edc3.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1edc3.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_1edc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1edc3.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1edc3.dir/CheckFunctionExists.cxx.o  -o cmTC_1edc3 -lpthread 
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+
+

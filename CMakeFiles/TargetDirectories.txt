@@ -1,0 +1,3 @@
+/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/pixelGameEngine.dir
+/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/edit_cache.dir

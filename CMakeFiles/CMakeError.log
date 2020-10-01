@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a88d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a88d.dir/build.make CMakeFiles/cmTC_5a88d.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a88d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra    -o CMakeFiles/cmTC_5a88d.dir/CheckSymbolExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_5a88d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a88d.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra     CMakeFiles/cmTC_5a88d.dir/CheckSymbolExists.cxx.o  -o cmTC_5a88d 
+/usr/bin/ld: CMakeFiles/cmTC_5a88d.dir/CheckSymbolExists.cxx.o: in function `main':
+CheckSymbolExists.cxx:(.text.startup+0xc): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5a88d.dir/build.make:87: cmTC_5a88d] Error 1
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5a88d/fast] Error 2
+
+File /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67a24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67a24.dir/build.make CMakeFiles/cmTC_67a24.dir/build
+make[1]: Entering directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67a24.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_67a24.dir/CheckFunctionExists.cxx.o -c /home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_67a24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67a24.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -Wall -Wextra -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_67a24.dir/CheckFunctionExists.cxx.o  -o cmTC_67a24 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_67a24.dir/build.make:87: cmTC_67a24] Error 1
+make[1]: Leaving directory '/home/pi/Desktop/game/pixelGameEngine/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_67a24/fast] Error 2
+
+

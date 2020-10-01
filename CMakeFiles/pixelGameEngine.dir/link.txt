@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -Wall -Wextra   CMakeFiles/pixelGameEngine.dir/main.cpp.o CMakeFiles/pixelGameEngine.dir/player.cpp.o  -o pixelGameEngine -lX11 /usr/lib/arm-linux-gnueabihf/libGL.so -lpng -lstdc++fs -lpthread 
